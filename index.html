@@ -5,155 +5,157 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Weekly Planner</title>
-		<link rel="stylesheet" href="" />
+		<link rel="stylesheet" href="styles.css/style.css" />
 	</head>
 	<body>
-		<!--Left column container-->
 		<div class="main-container">
-			<h1>Weekly Planner</h1>
+			<!--Left column container-->
+			<div class="column-container column1">
+				<p>Weekly Planner</p>
 
-			<!--OORANIZE YOUR WEEK container-->
-			<div class="organize-bar">
-				<h2>ORGANIZE YOUR WEEK</h2>
-				<button class="organize-btn">UNDO</button>
-				<button class="organize-btn">DELETE</button>
-			</div>
+				<!--OORANIZE YOUR WEEK container-->
+				<div class="organize-bar">
+					<h2>ORGANIZE YOUR WEEK</h2>
+					<button class="organize-btn">UNDO</button>
+					<button class="organize-btn">DELETE</button>
+				</div>
 
-			<!--Containers for the weekday buttons and task containers-->
-			<div class="weekday-container">
-				<button class="weekday-btn">MONDAY</button>
-				<div class="task-container"></div>
-			</div>
-			<div class="weekday-container">
-				<button class="weekday-btn">TUESDAY</button>
-				<div class="task-container"></div>
-			</div>
-			<div class="weekday-container">
-				<button class="weekday-btn">WEDNESDAY</button>
-				<div class="task-container"></div>
-			</div>
-			<div class="weekday-container">
-				<button class="weekday-btn">THURSDAY</button>
-				<div class="task-container"></div>
-			</div>
-			<div class="weekday-container">
-				<button class="weekday-btn">FRIDAY</button>
-				<div class="task-container"></div>
-			</div>
+				<!--Containers for the weekday buttons and task containers-->
+				<div class="weekday-container">
+					<button class="weekday-btn">MONDAY</button>
+					<div class="task-container"></div>
+				</div>
+				<div class="weekday-container">
+					<button class="weekday-btn">TUESDAY</button>
+					<div class="task-container"></div>
+				</div>
+				<div class="weekday-container">
+					<button class="weekday-btn">WEDNESDAY</button>
+					<div class="task-container"></div>
+				</div>
+				<div class="weekday-container">
+					<button class="weekday-btn">THURSDAY</button>
+					<div class="task-container"></div>
+				</div>
+				<div class="weekday-container">
+					<button class="weekday-btn">FRIDAY</button>
+					<div class="task-container"></div>
+				</div>
 
-			<!--Container for weekend child containers  which include their
+				<!--Container for weekend child containers  which include their
                 own buttons and task containers like the weekday containers-->
-			<div class="weekend-parent-container">
-				<div class="weekend-child-container">
-					<button class="weekend-btns">SATURDAY</button>
-					<div class="weekend-task-container"></div>
-				</div>
-				<div class="weekend-child-container">
-					<button class="weekend-btns">SATURDAY</button>
-					<div class="weekend-task-container"></div>
+				<div class="weekend-parent-container">
+					<div class="weekend-child-container">
+						<button class="weekend-btns">SATURDAY</button>
+						<div class="weekend-task-container"></div>
+					</div>
+					<div class="weekend-child-container">
+						<button class="weekend-btns">SATURDAY</button>
+						<div class="weekend-task-container"></div>
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<!---------------------------------------------------------------------->
+			<!---------------------------------------------------------------------->
 
-		<!--Center column container-->
-		<div class="main-container">
-			<!--TO DO LIST container-->
-			<div class="to-do-container">
-				<div class="to-do-bar">
-					<h2>TO DO LIST</h2>
-					<button class="organize-btn">ADD TO WEEK</button>
+			<!--Center column container-->
+			<div class="column-container column2">
+				<!--TO DO LIST container-->
+				<div class="to-do-container">
+					<div class="to-do-bar">
+						<h2>TO DO LIST</h2>
+						<button class="organize-btn">ADD TO WEEK</button>
+					</div>
+
+					<!--To do list inputs-->
+					<form action="">
+						<input type="text" class="to-do-input" />
+						<input type="text" class="to-do-input" />
+						<input type="text" class="to-do-input" />
+						<input type="text" class="to-do-input" />
+						<input type="text" class="to-do-input" />
+					</form>
 				</div>
 
-				<!--To do list inputs-->
-				<form action="">
-					<input type="text" class="to-do-input" />
-					<input type="text" class="to-do-input" />
-					<input type="text" class="to-do-input" />
-					<input type="text" class="to-do-input" />
-					<input type="text" class="to-do-input" />
-				</form>
-			</div>
+				<!--NOTES container-->
+				<div class="notes-container">
+					<div class="notes-bar">
+						<h2>NOTES</h2>
+						<button class="organize-btn">ADD TO WEEK</button>
+					</div>
 
-			<!--NOTES container-->
-			<div class="notes-container">
-				<div class="notes-bar">
-					<h2>NOTES</h2>
-					<button class="organize-btn">ADD TO WEEK</button>
+					<!--Notes inputs-->
+					<form action="">
+						<input type="text" class="notes-input" />
+						<input type="text" class="notes-input" />
+						<input type="text" class="notes-input" />
+					</form>
 				</div>
-
-				<!--Notes inputs-->
-				<form action="">
-					<input type="text" class="notes-input" />
-					<input type="text" class="notes-input" />
-					<input type="text" class="notes-input" />
-				</form>
 			</div>
-		</div>
 
-		<!---------------------------------------------------------------------->
+			<!---------------------------------------------------------------------->
 
-		<!--Right column container-->
-		<div class="main-container">
-			<!--CONTACTS container-->
-			<div class="contacts-container">
-				<contacts-bar>
-					<h2>CONTACTS</h2>
-					<button class="organize-btn">SCHEDULE CONTACT</button>
-					<button class="organize-btn">DELETE CONTACT</button>
-				</contacts-bar>
+			<!--Right column container-->
+			<div class="column-container column3">
+				<!--CONTACTS container-->
+				<div class="contacts-container">
+					<contacts-bar>
+						<h2>CONTACTS</h2>
+						<button class="organize-btn">SCHEDULE CONTACT</button>
+						<button class="organize-btn">DELETE CONTACT</button>
+					</contacts-bar>
 
-				<!--Contact forms which include inputs for "name",
+					<!--Contact forms which include inputs for "name",
                     "phone", and "email"-->
-				<form action="">
-					<label for="name">NAME: </label>
-					<input type="text" name="name" class="contact-input" />
-					<label for="phone">PHONE: </label>
-					<input type="number" name="phone" class="contact-input" />
-					<label for="email">EMAIL: </label>
-					<input type="email" name="email" class="contact-input" />
-				</form>
-				<form action="">
-					<label for="name">NAME: </label>
-					<input type="text" name="name" class="contact-input" />
-					<label for="phone">PHONE: </label>
-					<input type="number" name="phone" class="contact-input" />
-					<label for="email">EMAIL: </label>
-					<input type="email" name="email" class="contact-input" />
-				</form>
-				<form action="">
-					<label for="name">NAME: </label>
-					<input type="text" name="name" class="contact-input" />
-					<label for="phone">PHONE: </label>
-					<input type="number" name="phone" class="contact-input" />
-					<label for="email">EMAIL: </label>
-					<input type="email" name="email" class="contact-input" />
-				</form>
-				<form action="">
-					<label for="name">NAME: </label>
-					<input type="text" name="name" class="contact-input" />
-					<label for="phone">PHONE: </label>
-					<input type="number" name="phone" class="contact-input" />
-					<label for="email">EMAIL: </label>
-					<input type="email" name="email" class="contact-input" />
-				</form>
-				<form action="">
-					<label for="name">NAME: </label>
-					<input type="text" name="name" class="contact-input" />
-					<label for="phone">PHONE: </label>
-					<input type="number" name="phone" class="contact-input" />
-					<label for="email">EMAIL: </label>
-					<input type="email" name="email" class="contact-input" />
-				</form>
-				<form action="">
-					<label for="name">NAME: </label>
-					<input type="text" name="name" class="contact-input" />
-					<label for="phone">PHONE: </label>
-					<input type="number" name="phone" class="contact-input" />
-					<label for="email">EMAIL: </label>
-					<input type="email" name="email" class="contact-input" />
-				</form>
+					<form action="">
+						<label for="name">NAME: </label>
+						<input type="text" name="name" class="contact-input" />
+						<label for="phone">PHONE: </label>
+						<input type="number" name="phone" class="contact-input" />
+						<label for="email">EMAIL: </label>
+						<input type="email" name="email" class="contact-input" />
+					</form>
+					<form action="">
+						<label for="name">NAME: </label>
+						<input type="text" name="name" class="contact-input" />
+						<label for="phone">PHONE: </label>
+						<input type="number" name="phone" class="contact-input" />
+						<label for="email">EMAIL: </label>
+						<input type="email" name="email" class="contact-input" />
+					</form>
+					<form action="">
+						<label for="name">NAME: </label>
+						<input type="text" name="name" class="contact-input" />
+						<label for="phone">PHONE: </label>
+						<input type="number" name="phone" class="contact-input" />
+						<label for="email">EMAIL: </label>
+						<input type="email" name="email" class="contact-input" />
+					</form>
+					<form action="">
+						<label for="name">NAME: </label>
+						<input type="text" name="name" class="contact-input" />
+						<label for="phone">PHONE: </label>
+						<input type="number" name="phone" class="contact-input" />
+						<label for="email">EMAIL: </label>
+						<input type="email" name="email" class="contact-input" />
+					</form>
+					<form action="">
+						<label for="name">NAME: </label>
+						<input type="text" name="name" class="contact-input" />
+						<label for="phone">PHONE: </label>
+						<input type="number" name="phone" class="contact-input" />
+						<label for="email">EMAIL: </label>
+						<input type="email" name="email" class="contact-input" />
+					</form>
+					<form action="">
+						<label for="name">NAME: </label>
+						<input type="text" name="name" class="contact-input" />
+						<label for="phone">PHONE: </label>
+						<input type="number" name="phone" class="contact-input" />
+						<label for="email">EMAIL: </label>
+						<input type="email" name="email" class="contact-input" />
+					</form>
+				</div>
 			</div>
 		</div>
 
