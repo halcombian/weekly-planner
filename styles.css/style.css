@@ -1,0 +1,83 @@
+html,
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+html .main-container,
+body .main-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html .main-container .column-container,
+body .main-container .column-container {
+  border: 2px solid red;
+}
+
+.column1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.column1 p {
+  background-color: #fafafa;
+  color: #3f48cc;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 5rem;
+  margin: 0;
+}
+
+.column1 .organize-bar {
+  background-color: #3f48cc;
+  color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 5px 0 5px;
+}
+
+.column1 .organize-bar h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.column1 .organize-bar .organize-btn {
+  background-color: #3f48cc;
+  color: #fafafa;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 4px solid #fafafa;
+  padding: 10px 20px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.column1 .organize-bar .organize-btn:hover {
+  background-color: #5473ff;
+}
+/*# sourceMappingURL=style.css.map */
