@@ -53,6 +53,10 @@
 				border: none;
 				width: 40%;
 			}
+			.weekday-btn:hover {
+				background-color: #5473ff;
+				cursor: pointer;
+			}
 			.task-container {
 				border: 4px solid $blue;
 				width: 60%;
@@ -65,7 +69,6 @@
 		height: 20%;
 		gap: 2px;
 		.weekend-child-container {
-			border: 4px solid $blue;
 			width: 100%;
 			.weekend-btns {
 				background-color: $blue;
@@ -74,9 +77,15 @@
 				height: 35%;
 				width: 100%;
 			}
+			.weekend-btns:hover {
+				background-color: #5473ff;
+				cursor: pointer;
+			}
 			.weekend-task-container {
+				border: 4px solid $blue;
+				box-sizing: border-box;
+				border-top: 0;
 				height: 65%;
-				width: 100%;
 			}
 		}
 	}

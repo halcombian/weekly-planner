@@ -81,6 +81,11 @@
   width: 40%;
 }
 
+.column1 .weekday-parent-container .weekday-container .weekday-btn:hover {
+  background-color: #5473ff;
+  cursor: pointer;
+}
+
 .column1 .weekday-parent-container .weekday-container .task-container {
   border: 4px solid #3f48cc;
   width: 60%;
@@ -99,7 +104,6 @@
 }
 
 .column1 .weekend-parent-container .weekend-child-container {
-  border: 4px solid #3f48cc;
   width: 100%;
 }
 
@@ -111,9 +115,17 @@
   width: 100%;
 }
 
+.column1 .weekend-parent-container .weekend-child-container .weekend-btns:hover {
+  background-color: #5473ff;
+  cursor: pointer;
+}
+
 .column1 .weekend-parent-container .weekend-child-container .weekend-task-container {
+  border: 4px solid #3f48cc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 0;
   height: 65%;
-  width: 100%;
 }
 
 html,
