@@ -5,6 +5,8 @@
 	flex-direction: column;
 	h1 {
 		color: $blue;
+		text-decoration: underline;
+		text-decoration-color: $salmon;
 		text-align: center;
 		font-size: 5rem;
 		font-weight: 400;
@@ -27,11 +29,12 @@
 				font-size: 1.5rem;
 				text-align: left;
 				border: none;
+				border-left: 8px solid $salmon;
 				width: 40%;
-				padding-left: 5%;
+				padding-left: 1rem;
 			}
 			.weekday-btn:hover {
-				background-color: #5473ff;
+				background-color: $lightBlue;
 				cursor: pointer;
 			}
 			.task-container {
@@ -51,12 +54,15 @@
 				background-color: $blue;
 				color: $white;
 				font-size: 1.5rem;
+				text-align: left;
 				border: none;
+				border-left: 8px solid $salmon;
 				height: 35%;
 				width: 100%;
+				padding-left: 1rem;
 			}
 			.weekend-btns:hover {
-				background-color: #5473ff;
+				background-color: $lightBlue;
 				cursor: pointer;
 			}
 			.weekend-task-container {
