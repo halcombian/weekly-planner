@@ -32,6 +32,8 @@
 				border-left: 8px solid $salmon;
 				width: 40%;
 				padding-left: 1rem;
+
+				transition: ease-out 0.1s;
 			}
 			.weekday-btn:hover {
 				background-color: $lightBlue;
