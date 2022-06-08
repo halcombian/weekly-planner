@@ -9,18 +9,17 @@
 	</head>
 	<body>
 		<div class="main-container">
-			<!--Left column container-->
 			<div class="column-container column1">
 				<h1>Weekly Planner</h1>
 
-				<!--OORANIZE YOUR WEEK container-->
 				<div class="organize-bar">
-					<h2>ORGANIZE YOUR WEEK</h2>
-					<button class="organize-btn">UNDO</button>
-					<button class="organize-btn">DELETE</button>
+					<h2>YOUR WEEK</h2>
+					<div class="btn-container">
+						<button class="organize-btn">UNDO</button>
+						<button class="organize-btn">DELETE</button>
+					</div>
 				</div>
 
-				<!--Container for the weekday buttons and task containers-->
 				<div class="weekday-parent-container">
 					<div class="weekday-container">
 						<button class="weekday-btn">MONDAY</button>
@@ -44,8 +43,6 @@
 					</div>
 				</div>
 
-				<!--Container for weekend child containers  which include their
-                own buttons and task containers like the weekday containers-->
 				<div class="weekend-parent-container">
 					<div class="weekend-child-container">
 						<button class="weekend-btns">SATURDAY</button>
@@ -58,18 +55,15 @@
 				</div>
 			</div>
 
-			<!---------------------------------------------------------------------->
-
-			<!--Center column container-->
 			<div class="column-container column2">
-				<!--TO DO LIST container-->
 				<div class="to-do-container">
 					<div class="organize-bar">
 						<h2>TO DO LIST</h2>
-						<button class="organize-btn">ADD</button>
+						<div class="btn-container">
+							<button class="organize-btn">ADD</button>
+						</div>
 					</div>
 
-					<!--To do list inputs-->
 					<form action="">
 						<input type="text" class="to-do-input" />
 						<input type="text" class="to-do-input" />
@@ -86,15 +80,16 @@
 					</form>
 				</div>
 
-				<!--NOTES container-->
 				<div class="notes-container">
 					<div class="organize-bar">
 						<h2>NOTES</h2>
-						<button class="organize-btn">ADD</button>
+						<div class="btn-container">
+							<button class="organize-btn">ADD</button>
+						</div>
 					</div>
 
-					<!--Notes inputs-->
 					<form action="">
+						<input type="text" class="notes-input" />
 						<input type="text" class="notes-input" />
 						<input type="text" class="notes-input" />
 						<input type="text" class="notes-input" />
@@ -104,20 +99,16 @@
 				</div>
 			</div>
 
-			<!---------------------------------------------------------------------->
-
-			<!--Right column container-->
 			<div class="column-container column3">
-				<!--CONTACTS container-->
 				<div class="contacts-container">
 					<div class="organize-bar">
 						<h2>CONTACTS</h2>
-						<button class="organize-btn">ADD</button>
-						<button class="organize-btn">DELETE</button>
+						<div class="btn-container">
+							<button class="organize-btn">ADD</button>
+							<button class="organize-btn">DELETE</button>
+						</div>
 					</div>
 
-					<!--Contact forms which include inputs for "name",
-                    "phone", and "email"-->
 					<div class="contacts-form-container">
 						<form action="">
 							<label for="name">NAME: </label>

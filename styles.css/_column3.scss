@@ -16,6 +16,7 @@
 				border-bottom: 4px solid $blue;
 				display: grid;
 				grid-template-columns: max-content 1fr;
+				column-gap: 5px;
 				padding-bottom: 5px;
 				label {
 					color: $blue;
@@ -27,6 +28,7 @@
 					border: none;
 					outline: none;
 					font-size: 1.25rem;
+					width: 100%;
 
 					transition: ease-out 0.1s;
 				}
