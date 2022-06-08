@@ -4,13 +4,14 @@
 	background-color: $blue;
 	color: $white;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: 1fr 1fr;
+	//grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
-	padding: 0 5% 0 5%;
+	padding: 0 1.5vh 0 1.5vh;
 	h2 {
-		font-size: 2rem;
+		font-size: 3.5vh;
 		font-weight: 100;
-		margin: 1rem 0 1rem 0;
+		margin: 1.5vh 0 1.5vh 0;
 	}
 	.btn-container {
 		display: flex;
@@ -19,13 +20,12 @@
 		.organize-btn {
 			background-color: $blue;
 			color: $white;
-			font-size: 1rem;
-			font-weight: 600;
+			font-size: 2vh;
 			border: 2px solid $white;
 			border-top: 2px solid $salmon;
 			border-left: 2px solid $salmon;
 			height: min-content;
-			padding: 10px 20px;
+			padding: 1.25vh 1.75vh;
 			margin: 2px;
 			cursor: pointer;
 

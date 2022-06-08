@@ -8,7 +8,7 @@
 		.contacts-form-container {
 			border: 4px solid $blue;
 			height: 100%;
-			padding: 1% 5% 1% 5%;
+			padding: 1vh 2.5vh 1vh 2.5vh;
 			display: flex;
 			flex-direction: column;
 			gap: 5px;
@@ -20,14 +20,14 @@
 				padding-bottom: 5px;
 				label {
 					color: $blue;
-					font-size: 1.5rem;
+					font-size: 2.5vh;
 				}
 				input {
 					background-color: $white;
 					color: $blue;
 					border: none;
 					outline: none;
-					font-size: 1.25rem;
+					font-size: 2.5vh;
 					width: 100%;
 
 					transition: ease-out 0.1s;
