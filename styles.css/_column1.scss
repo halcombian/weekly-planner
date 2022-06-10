@@ -46,6 +46,7 @@
 			border-left: 8px solid $salmon;
 			height: 11vh;
 			width: 22vh;
+			padding-left: 1.5vh;
 
 			transition: ease-in-out 0.2s;
 			position: relative;
@@ -82,7 +83,7 @@
 			z-index: -1;
 			background-color: $salmon;
 
-			transition: transform 0.4s ease-in-out;
+			transition: transform 0.3s ease-in-out;
 			transform: scaleX(0);
 			transform-origin: left;
 		}
@@ -101,8 +102,13 @@
 			width: 100%;
 			padding-left: 1.5vh;
 
+			transition: ease-in-out 0.2s;
 			position: relative;
 			z-index: 1;
+		}
+		.weekend-btns:hover {
+			cursor: pointer;
+			padding-left: 1vh;
 		}
 		.weekend-task-container {
 			border: 4px solid $blue;
