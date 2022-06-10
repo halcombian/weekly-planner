@@ -24,21 +24,16 @@
 				}
 				input {
 					background-color: $white;
-					color: $blue;
 					border: none;
 					outline: none;
 					font-size: 2.5vh;
 					width: 100%;
-
-					transition: ease-out 0.1s;
 				}
 				input:hover {
 					background-color: $lightBlue;
-					color: $white;
 				}
 				input:focus {
 					background-color: $white;
-					color: $blue;
 				}
 			}
 		}
